@@ -1,0 +1,117 @@
+HTML Formatting Elements/////
+<!--Phần tử HTML này <b> định nghĩa văn bản in đậm, mà không có ý nghĩa đặc biệt nào.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>ĐÂY LÀ BÌNH THƯỜNG .</p>
+
+<p><b>ĐÂY LÀ IN ĐÂM.</b></p>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML này <i>định nghĩa một phần văn bản ở giọng điệu hoặc tâm trạng khác. Nội dung bên trong thường được hiển thị ở dạng chữ nghiêng.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>NHANTRONG</p>
+
+<p><i>2121050088</i></p>
+
+</body>
+</html>
+
+
+<!--Phần tử HTML <strong><p> định nghĩa văn bản có tầm quan trọng cao. Nội dung bên trong thường được hiển thị bằng chữ đậm.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This text is normal.</p>
+
+<p><strong>This text is important!</strong></p>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML này <small>định nghĩa văn bản nhỏ hơn:-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+
+</body>
+</html>
+
+
+
+
+<!--Phần tử HTML này <mark>định nghĩa văn bản cần được đánh dấu hoặc làm nổi bật:-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML <p> <del>định nghĩa văn bản đã bị xóa khỏi tài liệu. Trình duyệt thường sẽ gạch ngang văn bản đã xóa:-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML <p> <ins>định nghĩa một đoạn văn bản được chèn vào tài liệu. Trình duyệt thường sẽ gạch chân đoạn văn bản được chèn vào:-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML <sub><subscript> định nghĩa văn bản chỉ số dưới. Văn bản chỉ số dưới xuất hiện nửa ký tự bên dưới dòng bình thường 
+và đôi khi được hiển thị bằng phông chữ nhỏ hơn. Văn bản chỉ số dưới có thể được sử dụng cho các công thức hóa học, ví dụ như H₂O-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is <sub>subscripted</sub> text.</p>
+
+</body>
+</html>
+
+
+
+
+<!--Phần tử HTML <sup>xác định văn bản viết trên dòng. Văn bản viết trên dòng xuất hiện nửa ký tự phía trên dòng bình thường và đôi khi được hiển thị bằng phông chữ nhỏ hơn. 
+Văn bản viết trên dòng có thể được sử dụng cho chú thích cuối trang, như WWW [1] :-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is <sup>TRONG NHAN</sup> text.</p>
+
+</body>
+</html>
+

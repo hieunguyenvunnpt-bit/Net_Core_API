@@ -1,0 +1,92 @@
+<!--Trong chương này, chúng ta sẽ tìm hiểu về các phần tử HTML <blockquote><div> <q>, <abbr><div>, <address><div>, <cite><div> và <div> <bdo>.-->
+
+
+
+<!--Phần tử HTML <blockquote>được sử dụng để định nghĩa một trích dẫn dài.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>NHANTRONG website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+2121050088</blockquote>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML <q>được sử dụng để định nghĩa một trích dẫn ngắn.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Browsers usually insert quotation marks around the q element.</p>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+</body>
+</html>
+
+
+
+<!--Phần tử HTML <abbr>được sử dụng để định nghĩa một từ viết tắt hoặc chữ viết tắt.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+
+</body>
+</html>
+
+<!--Phần tử HTML <address>được sử dụng để định nghĩa thông tin liên hệ cho tác giả của một tài liệu hoặc một phần của tài liệu.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Written by TRONG NHAN.<br> 
+Visit us at:<br>
+Example.com<br>
+MSV:2121050088, Disneyland<br>
+USA
+</address>
+
+</body>
+</html>
+
+<!--Phần tử HTML <cite>được sử dụng để định nghĩa tiêu đề của một tác phẩm sáng tạo.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>TRONG NHAN MSV 2121050088.</p>
+<p>ĐÂY LÀ ẢNH CỦA NHÂN</p>
+
+<img src="wp3207026.jpg" width="220" height="277" alt="PHONG CẢNH">
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+</body>
+</html>
+
+
+<!--Phần tử HTML <bdo>được sử dụng để thay đổi hướng văn bản.-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+
+</body>
+</html>
+
+
+
