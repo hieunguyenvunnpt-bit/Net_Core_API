@@ -1,0 +1,43 @@
+HTML Headings/////
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>nhantrong 1</h1>
+<h2>nhantrong 2</h2>
+<h3>nhantrong 3</h3>
+<h4>nhantrong 4</h4>
+<h5>nhantrong 5</h5>
+<h6>nhantrong 6</h6>
+
+</body>
+</html>
+
+HTML Paragraphs//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>2121050088.</p>
+<p>2121050088 second.</p>
+
+</body>
+</html>
+
+
+HTML Links////////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>github links</h2>
+<p>trong nhan :</p>
+
+<a href="https://github.com/hieunguyenvunnpt-bit/Net_Core_API/tree/main">This is a link</a>
+
+</body>
+</html>
+
+HTML Images/////
+
