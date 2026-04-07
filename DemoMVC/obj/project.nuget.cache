@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ql93MAz2Iwg=",
+  "dgSpecHash": "ImkKyLKktcc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\New folder\\Net_Core_API\\demoMVC\\DemoMVC.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\New folder\\Net_Core_API\\DemoMVC\\DemoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

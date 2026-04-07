@@ -19,57 +19,57 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = DemoMVC
 build_property.RootNamespace = DemoMVC
-build_property.ProjectDir = C:\Users\Administrator\Desktop\New folder\Net_Core_API\demoMVC\
+build_property.ProjectDir = C:\Users\Administrator\Desktop\New folder\Net_Core_API\DemoMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrator\Desktop\New folder\Net_Core_API\demoMVC
+build_property.MSBuildProjectDirectory = C:\Users\Administrator\Desktop\New folder\Net_Core_API\DemoMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/demo/Index.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/demo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVtb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Home/Index.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Home/Privacy.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Product/Create.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Product/Edit.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Product/Index.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Shared/Error.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/_ViewImports.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/_ViewStart.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/New folder/Net_Core_API/demoMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/Administrator/Desktop/New folder/Net_Core_API/DemoMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hzgfhw30l6
