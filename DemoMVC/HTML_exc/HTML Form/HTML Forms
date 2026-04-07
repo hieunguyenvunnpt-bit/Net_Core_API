@@ -1,0 +1,46 @@
+<!--the <form> Element-->
+<!--The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc. -->
+
+<!--The <input> Element-->
+<!--The Submit Button-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>2121050088</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="nhan"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="trong"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
+
+
+<!--The Name Attribute for <input>-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>2121050088</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="trongnhan"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
+
+</body>
+</html>
+

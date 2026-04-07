@@ -1,0 +1,16 @@
+@model List<DemoMVC.Models.Product>
+
+<h2>Danh sách sản phẩm</h2>
+
+<a href="/Product/Create">Thêm</a>
+
+@foreach (var item in Model)
+{
+    <p>
+        @item.Name - @item.Price
+        |
+        <a href="/Product/Edit/@item.Id">Sửa</a>
+        |
+        <a href="/Product/Delete/@item.Id">Xóa</a> <!-- 👈 THÊM DÒNG NÀY -->
+    </p>
+}

@@ -1,0 +1,136 @@
+<!--Inline CSS--> 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;">A Blue TRONG NHAN </h1>
+
+<p style="color:red;">A red 2121050088.</p>
+
+</body>
+</html>
+
+
+<!--External CSS-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+<!--CSS Colors, Fonts and Sizes-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+<!--CSS Border-->
+<html>
+<head>
+<style>
+p {
+  border: 2px solid powderblue;
+}
+</style>
+</head>
+<body>
+
+<h1>trongnhan</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+<!--CSS Padding-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>trong nhan</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+<!--CSS Margin-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+</style>
+</head>
+<body>
+
+<h1>trong nhan</h1>
+
+<p>2121050088.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+<!--Link to External CSS-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+</head>
+<body>
+
+<h1> trong nhan</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+

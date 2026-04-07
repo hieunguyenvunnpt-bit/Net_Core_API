@@ -1,0 +1,106 @@
+HTML Display//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+2121050088
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+
+<p>
+TRONG NHAN 
+contains      a lot of spaces
+in the source     code,
+but the    browser 
+ignores it.
+</p>
+
+<p>
+The number of lines in a paragraph depends on the size of the browser window. If you resize the browser window, the number of lines in this paragraph will change.
+</p>
+
+</body>
+</html>
+
+
+
+HTML Horizontal Rules//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+
+</body>
+</html>
+
+
+
+HTML Line Breaks//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>DAY LA<br>PHAM TRONG NHAN<br>VOI MSV 2121050088.</p>
+
+</body>
+</html>
+
+
+
+The Poem Problem//////
+<html>
+<body>
+
+<p>Trong HTML khoảng trống và xuống dòng sẽ bi bỏ qua</p>
+
+<p>
+
+  TRONG NHAN VOI MSV 2121050088.
+
+  TRONG NHAN VOI MSV 2121050088.
+
+  TRONG NHAN VOI MSV 2121050088.
+  
+  TRONG NHAN VOI MSV 2121050088.
+
+</p>
+
+</body>
+</html>
+
+Solution - The HTML <pre> Element//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Thẻ pre giữ nguyên cả khoảng trắng và xuống dòng:</p>
+
+<pre>
+   TRONG NHAN VOI MSV 2121050088.
+
+   My Bonnie lies over the sea.
+
+   TRONG NHAN VOI MSV 2121050088.
+   
+   Oh, bring back my Bonnie to me.
+</pre>
+
+</body>
+</html>
+
+
+

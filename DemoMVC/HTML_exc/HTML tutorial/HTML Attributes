@@ -1,0 +1,26 @@
+The href Attribute////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>TRONGNHAN</h2>
+
+<p>21210550088:</p>
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+</body>
+</html>
+
+The src Attribute
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>212100088</h2>
+<p>TRONGNHAN IMAGES:</p>
+
+<img src="wp3207026.jpg" width="500" height="600">
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+background color/////
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>trong nhan</h1>
+<p>2121050088</p>
+
+</body>
+</html>
+
+HTML Text color//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;">trong nhan</h1>
+<p style="color:red;">2121050088</p>
+
+</body>
+</html>
+
+HTML Text Fonts//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-family:verdana;">trong nhan</h1>
+<p style="font-family:courier;">2121050088</p>
+
+</body>
+</html>
+
+
+HTML Text Sizes//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:300%;">trong nhan</h1>
+<p style="font-size:160%;">2121050088</p>
+
+</body>
+</html>
+
+
+Text Alignment//////
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">căn giữa</h1>
+<p style="text-align:center;">TRONG NHAN VOI MSV 2121050088</p>
+
+</body>
+</html>
+
+
+
+
+
+
