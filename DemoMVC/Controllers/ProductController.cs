@@ -1,75 +1,88 @@
-using Microsoft.AspNetCore.Mvc;
 using DemoMVC.Data;
 using DemoMVC.Models;
-using System.Linq;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace DemoMVC.Controllers
 {
-    public class ProductController : Controller
+    public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public ProductController(ApplicationDbContext context)
+        public ProductsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // READ
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var data = _context.Products.ToList();
-            return View(data);
+            return View(await _context.Products.ToListAsync());
         }
 
-        // CREATE GET
         public IActionResult Create()
         {
             return View();
         }
 
-        // CREATE POST
         [HttpPost]
-        public IActionResult Create(Product p)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Product product)
         {
-            _context.Products.Add(p);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _context.Add(product);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
         }
 
-        // EDIT GET
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int? id)
         {
-            var p = _context.Products.Find(id);
-            if (p == null)
-            {
-                return NotFound();
-            }
-            return View(p);
+            if (id == null) return NotFound();
+            var product = await _context.Products.FindAsync(id);
+            if (product == null) return NotFound();
+            return View(product);
         }
 
-       [HttpPost]
-public IActionResult Edit(Product p)
-{
-    if (ModelState.IsValid)
-    {
-        _context.Products.Update(p);
-        _context.SaveChanges();
-        return RedirectToAction("Index");
-    }
-    return View(p);
-}
-        // DELETE
-        public IActionResult Delete(int id)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Product product)
         {
-            var p = _context.Products.Find(id);
-
-            if (p != null)
+            if (id != product.Id) return NotFound();
+            if (ModelState.IsValid)
             {
-                _context.Products.Remove(p);
-                _context.SaveChanges();
+                try
+                {
+                    _context.Update(product);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Products.Any(e => e.Id == id)) return NotFound();
+                    else throw;
+                }
+                return RedirectToAction(nameof(Index));
             }
+            return View(product);
+        }
 
-            return RedirectToAction("Index");
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (product == null) return NotFound();
+            return View(product);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

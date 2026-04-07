@@ -6,11 +6,13 @@ namespace DemoMVC.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Tên không được để trống")]
-        [StringLength(50, ErrorMessage = "Tên tối đa 50 ký tự")]
-        public string Name { get; set; } = "";
+        [Required(ErrorMessage = "Tên sản phẩm không được để trống")]
+        public string Name { get; set; }
 
-        [Range(0, 1000000, ErrorMessage = "Giá phải >= 0")]
-        public double Price { get; set; }
+        [Range(0, double.MaxValue, ErrorMessage = "Giá phải lớn hơn hoặc bằng 0")]
+        public decimal Price { get; set; }
+
+        // ✅ Thêm thuộc tính Description
+        public string Description { get; set; } 
     }
 }

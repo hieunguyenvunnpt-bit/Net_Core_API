@@ -2437,11 +2437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\New folder (2)\\Net_Core_API\\DemoMVC\\DemoMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\New folder\\Net_Core_API\\demoMVC\\DemoMVC.csproj",
       "projectName": "DemoMVC",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\New folder (2)\\Net_Core_API\\DemoMVC\\DemoMVC.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\New folder\\Net_Core_API\\demoMVC\\DemoMVC.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\New folder (2)\\Net_Core_API\\DemoMVC\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\New folder\\Net_Core_API\\demoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
